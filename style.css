@@ -1,28 +1,90 @@
 body {
-    color: white;
+    color: #F9FAF8;
     margin: 0;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
+/* Wrapping every element in the first section into the .header div */
 .header{
     background-color: #1F2937;
 }
 
-.top-links {
-    display: flex;
-    justify-content: space-evenly;
+/* Controls and edits the logo element */
+.logo {
     font-size: 24px;
 }
 
+/* Unordered list elements in the first section */
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 10px; 
+    gap: 15px;
 }
 
+/* Anchor elements in the first section */
 a {
     text-decoration: none;
     color: white;
+}
+
+/* Wrapping the very top elements: logo, and three links into the .nav-container div */
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+/* Wrapping the first article elements into the .hero-section div */
+.hero-section{  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 850px;
+    margin: 65px auto 90px;
+    gap: 40px;
+}
+
+/* Controls and edits the element in the gray place holding box */
+.place-holder {
+    background-color: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    flex: 1;
+}
+
+/* Controls and edits the text featured in the .hero div */
+.hero {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+/* Controls and edits the text featured in the secondary hero div */
+.secondary-hero {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* Controls and edits the sign up button in the sign up div */
+.sign-up {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    padding: 5px 25px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Wrapping all text and button elements into the .text-container div */
+.text-container {
+    flex: 0 0 47%;
 }
