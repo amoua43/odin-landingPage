@@ -1,5 +1,5 @@
 body {
-    color: #F9FAF8;
+    /* color: #F9FAF8; */
     margin: 0;
     min-height: 100vh;
     display: flex;
@@ -14,6 +14,7 @@ body {
 /* Controls and edits the logo element */
 .logo {
     font-size: 24px;
+    color: #F9FAF8;
 }
 
 /* Unordered list elements in the first section */
@@ -54,6 +55,7 @@ a {
 /* Controls and edits the element in the gray place holding box */
 .place-holder {
     background-color: silver;
+    color: #F9FAF8;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,4 +89,40 @@ a {
 /* Wrapping all text and button elements into the .text-container div */
 .text-container {
     flex: 0 0 47%;
+}
+
+/* Information heading */
+.information {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin: 40px;
+}
+
+/* Controls and edits the image or illustration boxes in the information section */
+.image-box {
+    height: 130px;
+    width: 130px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+/* Wrapping all information-container into the .information-body div */
+.information-body {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+/* Each image-box and text class fall into an information-container */
+.information-container {
+    max-width: 130px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 5px;
+
 }
