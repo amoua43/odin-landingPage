@@ -1,3 +1,3 @@
 # odin-landingPage
 
-This is the beginning of my odin project landing page. 
+This project will demonstrate my abilities and understanding of flexbox, box model, HTML structure, and CSS styling. More importantly, this project ties all the learning we have done so far in the Odin Project learning course. In this project, I have learned to manipulate the properties of the box model and flexbox. Creating divs or containers to contain the information presented on the landing page, then manipulating the shape, size, color, positioning, etc in the CSS file. A lot of time and research was spent getting this project as close as possible to the reference image. I have learned that there are multiple elements that makeup a single page. 
