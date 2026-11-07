@@ -160,4 +160,35 @@ All elements and classes that are related to the information section fall into t
     font-style: italic;
 }
 
-/*  */
+/* Wrapping the .action-container and every other class into this div */
+.action-section {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Wrapping the .action-text-container and btn class .action-sign-up into this div */
+.action-container {
+    display: flex;
+    background-color: #3882F6;
+    width: 1000px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    gap: 200px;
+    border-radius: 10px;
+}
+
+/* This is the action-sign-up btn class. 
+It manipulates the properties of the sign up btn in this section */
+.action-sign-up {
+    border: 2px solid #F9FAF8;
+    width: 105px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
