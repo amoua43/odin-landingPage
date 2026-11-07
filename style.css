@@ -192,3 +192,15 @@ It manipulates the properties of the sign up btn in this section */
     justify-content: center;
     border-radius: 5px;
 }
+
+/* Footer */
+.footer {
+    height: 72px;
+    background: #eee;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+}
