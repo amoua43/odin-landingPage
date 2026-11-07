@@ -91,6 +91,12 @@ a {
     flex: 0 0 47%;
 }
 
+/* Information section container. 
+All elements and classes that are related to the information section fall into this container */
+.information-section {
+    height: 400px;
+}
+
 /* Information heading */
 .information {
     display: flex;
@@ -126,3 +132,32 @@ a {
     gap: 5px;
 
 }
+
+/* Wrapping the quote-container into the .quote-section div */
+.quote-section {
+    background-color: lightgray;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* The quote and quoter class fall into the .quote-container div */
+.quote-container {
+    height: 400px;
+    width: 780px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+/* Quote class */
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+/*  */
